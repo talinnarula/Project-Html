@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Exact Same Light Background as Notices Page */
+body {
+    background-color: #f0f4f8;
+    color: #1e293b;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar - Classic Navy Blue */
+#navbar {
+    background-color: #1e3a5f;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.n1 {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 4px;
+}
+
+.n1:hover,
+.n1.active {
+    background-color: #e67e22;
+    color: #ffffff;
+}
+
+/* Title & Subtitle Section */
+#title-section {
+    text-align: center;
+    margin: 30px auto 20px auto;
+}
+
+#boxhead {
+    background-color: #1e3a5f;
+    color: #ffffff;
+    border-radius: 4px;
+    width: fit-content;
+    margin: 0 auto 8px auto;
+    padding: 9px 28px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #64748b;
+}
+
+/* White Cards (Exact Same Style as Notice Cards) */
+.fee-card {
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-left: 5px solid #e67e22;
+    border-radius: 6px;
+    width: 80%;
+    max-width: 850px;
+    margin: 16px auto;
+    padding: 18px 25px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.fee-card:hover {
+    border-color: #94a3b8;
+    border-left: 5px solid #e67e22;
+}
+
+/* Card Header Row */
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.card-top h2 {
+    font-size: 18px;
+    color: #1e3a5f;
+}
+
+.fee-card hr {
+    border: none;
+    border-top: 1px solid #e2e8f0;
+    margin-bottom: 12px;
+}
+
+/* Clean 2-Column Text Layout on White Card */
+.details-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 25px;
+}
+
+.details-row p {
+    width: 46%;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #334155;
+}
+
+.details-row p b {
+    color: #1e3a5f;
+}
+
+/* Small Badges (Same as Notices Page) */
+.tag {
+    font-size: 11px;
+    color: #ffffff;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.tag.info {
+    background-color: #1e3a5f;
+}
+
+.tag.rule {
+    background-color: #e67e22;
+}
+
+.tag.pending-tag {
+    background-color: #dc2626;
+}
+
+/* Table Styling */
+#fee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 18px;
+}
+
+#fee-table th,
+#fee-table td {
+    border: 1px solid #cbd5e1;
+    padding: 10px 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+#fee-table th {
+    background-color: #1e3a5f;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#fee-table td {
+    color: #334155;
+}
+
+#fee-table tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+/* Status Badges */
+.status {
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.paid {
+    background-color: #15803d;
+    color: #ffffff;
+}
+
+.pending {
+    background-color: #dc2626;
+    color: #ffffff;
+}
+
+/* Clean Payment Summary Footer inside White Card */
+#payment-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 14px;
+    border-top: 1px solid #e2e8f0;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#payment-summary h3 {
+    color: #1e3a5f;
+    font-size: 18px;
+}
+
+#payment-summary h3 span {
+    color: #dc2626;
+}
+
+#pay-btn {
+    background-color: #e67e22;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#pay-btn:hover {
+    background-color: #1e3a5f;
+}
+
+/* Bottom Note Bar (Same as Notices Page) */
+#accounts-note {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+    border-radius: 6px;
+    width: 80%;
+    max-width: 850px;
+    margin: 25px auto 10px auto;
+    padding: 12px 25px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Matching Footer */
+footer {
+    background-color: #1e3a5f;
+    text-align: center;
+    margin-top: 35px;
+    padding: 18px 10px;
+    font-size: 14px;
+    color: #e2e8f0;
+    line-height: 1.6;
+}

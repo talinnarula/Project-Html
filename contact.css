@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Exact Same Light Background as All Other Pages */
+body {
+    background-color: #f0f4f8;
+    color: #1e293b;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar - Classic Navy Blue */
+#navbar {
+    background-color: #1e3a5f;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.n1 {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 4px;
+}
+
+.n1:hover,
+.n1.active {
+    background-color: #e67e22;
+    color: #ffffff;
+}
+
+/* Title & Subtitle Section */
+#title-section {
+    text-align: center;
+    margin: 30px auto 20px auto;
+}
+
+#boxhead {
+    background-color: #1e3a5f;
+    color: #ffffff;
+    border-radius: 4px;
+    width: fit-content;
+    margin: 0 auto 8px auto;
+    padding: 9px 28px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #64748b;
+}
+
+/* Contact Cards (Exact Same Style as Notice & Fee Cards) */
+.contact-box {
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-left: 5px solid #e67e22;
+    border-radius: 6px;
+    width: 80%;
+    max-width: 850px;
+    margin: 16px auto;
+    padding: 18px 25px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.contact-box:hover {
+    border-color: #94a3b8;
+    border-left: 5px solid #e67e22;
+}
+
+/* Emergency Card Red Highlight */
+.contact-box.emergency {
+    border-left: 5px solid #dc2626;
+}
+
+.contact-box.emergency:hover {
+    border-left: 5px solid #dc2626;
+}
+
+/* Card Header Row */
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.card-top h2 {
+    font-size: 18px;
+    color: #1e3a5f;
+}
+
+.contact-box.emergency .card-top h2 {
+    color: #dc2626;
+}
+
+.contact-box hr {
+    border: none;
+    border-top: 1px solid #e2e8f0;
+    margin-bottom: 12px;
+}
+
+/* Clean 2-Column Contact Details */
+.details-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 25px;
+}
+
+.details-row p {
+    width: 47%;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #334155;
+}
+
+.details-row p b {
+    color: #1e3a5f;
+}
+
+.details-row a {
+    color: #e67e22;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.details-row a:hover {
+    text-decoration: underline;
+    color: #1e3a5f;
+}
+
+/* Category Tags */
+.tag {
+    font-size: 11px;
+    color: #ffffff;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.tag.urgent {
+    background-color: #dc2626;
+}
+
+.tag.info {
+    background-color: #1e3a5f;
+}
+
+.tag.rule {
+    background-color: #e67e22;
+}
+
+/* Bottom Note Bar (Same as Other Pages) */
+#contact-note {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+    border-radius: 6px;
+    width: 80%;
+    max-width: 850px;
+    margin: 25px auto 10px auto;
+    padding: 12px 25px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Matching Footer */
+footer {
+    background-color: #1e3a5f;
+    text-align: center;
+    margin-top: 35px;
+    padding: 18px 10px;
+    font-size: 14px;
+    color: #e2e8f0;
+    line-height: 1.6;
+}

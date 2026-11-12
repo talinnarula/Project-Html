@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Same Clean Light Background */
+body {
+    background-color: #f0f4f8;
+    color: #1e293b;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar - Classic Navy Blue */
+#navbar {
+    background-color: #1e3a5f;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.n1 {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 4px;
+}
+
+.n1:hover,
+.n1.active {
+    background-color: #e67e22;
+    color: #ffffff;
+}
+
+/* Title & Subtitle Section */
+#title-section {
+    text-align: center;
+    margin: 30px auto 20px auto;
+}
+
+#boxhead {
+    background-color: #1e3a5f;
+    color: #ffffff;
+    border-radius: 4px;
+    width: fit-content;
+    margin: 0 auto 8px auto;
+    padding: 9px 28px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #64748b;
+}
+
+/* Notice Cards */
+.notice-box {
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-left: 5px solid #e67e22;
+    border-radius: 6px;
+    width: 80%;
+    max-width: 850px;
+    margin: 16px auto;
+    padding: 18px 25px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.notice-box:hover {
+    border-color: #94a3b8;
+    border-left: 5px solid #e67e22;
+}
+
+/* Urgent Notice Highlight */
+.urgent-card {
+    border-left: 5px solid #dc2626;
+}
+
+.urgent-card:hover {
+    border-left: 5px solid #dc2626;
+}
+
+/* Top Row inside Card (Title Left, Date Right) */
+.notice-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.notice-top h2 {
+    font-size: 18px;
+    color: #1e3a5f;
+}
+
+.date {
+    font-size: 13px;
+    color: #64748b;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 3px 10px;
+    border-radius: 4px;
+}
+
+.notice-box hr {
+    border: none;
+    border-top: 1px solid #e2e8f0;
+    margin-bottom: 10px;
+}
+
+.notice-box p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #334155;
+}
+
+/* Issued By Line */
+.issued-by {
+    margin-top: 12px;
+    font-size: 12px;
+    color: #64748b;
+    font-style: italic;
+}
+
+/* Category Tags */
+.tag {
+    font-size: 11px;
+    color: #ffffff;
+    padding: 3px 8px;
+    border-radius: 3px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.tag.urgent {
+    background-color: #dc2626;
+}
+
+.tag.info {
+    background-color: #1e3a5f;
+}
+
+.tag.rule {
+    background-color: #e67e22;
+}
+
+/* Warden Office Note Box */
+#warden-note {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+    border-radius: 6px;
+    width: 80%;
+    max-width: 850px;
+    margin: 25px auto 10px auto;
+    padding: 12px 25px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Matching Footer */
+footer {
+    background-color: #1e3a5f;
+    text-align: center;
+    margin-top: 35px;
+    padding: 18px 10px;
+    font-size: 14px;
+    color: #e2e8f0;
+    line-height: 1.6;
+}

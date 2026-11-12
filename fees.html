@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Fees Portal</title>
+    <link rel="stylesheet" href="fees.css">
+</head>
+<body>
+
+    <header>
+        <div id="navbar">
+            <a class="n1" href="project.html">HOME</a>
+            <a class="n1" href="notice.html">NOTICES</a>
+            <a class="n1 active" href="fees.html">FEES</a>
+            <a class="n1" href="book.html">BOOK AMENITIES</a>
+            <a class="n1" href="complain.html">COMPLAINTS</a>
+            <a class="n1" href="contact.html">CONTACT US</a>
+        </div>
+    </header>
+
+    <!-- Page Title Section -->
+    <div id="title-section">
+        <div id="boxhead">HOSTEL FEE STATUS & BREAKDOWN</div>
+        <p class="subtitle">Check paid semester fees, pending utility dues, and bank transfer details</p>
+    </div>
+
+    <!-- Student Details Summary -->
+    <div class="fee-card">
+        <div class="card-top">
+            <h2>1. Student Information</h2>
+            <span class="tag info">ACTIVE HOSTELLER</span>
+        </div>
+        <hr>
+        <div class="details-row">
+            <p><b>Student Name:</b> Tushar Yadav</p>
+            <p><b>Registration No:</b> 12621134</p>
+            <p><b>Room Allocated:</b> BS-12, Room 414 (4-Seater AC Hot&Cold)</p>
+            <p><b>Academic Year:</b> 2026 - 2027</p>
+        </div>
+    </div>
+
+    <!-- Fee Breakdown Table -->
+    <div class="fee-card">
+        <div class="card-top">
+            <h2>2. Fee Structure & Dues</h2>
+            <span class="tag pending-tag">2 PENDING</span>
+        </div>
+        <hr>
+        <table id="fee-table">
+            <tr>
+                <th>Fee Particulars</th>
+                <th>Amount (₹)</th>
+                <th>Due Date</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>Hostel Room Rent (Semester 1)</td>
+                <td>45,000</td>
+                <td>15 Aug 2026</td>
+                <td><span class="status paid">PAID</span></td>
+            </tr>
+            <tr>
+                <td>Mess Charges (Quarterly)</td>
+                <td>18,000</td>
+                <td>15 Aug 2026</td>
+                <td><span class="status paid">PAID</span></td>
+            </tr>
+            <tr>
+                <td>Security Deposit (Refundable)</td>
+                <td>5,000</td>
+                <td>15 Aug 2026</td>
+                <td><span class="status paid">PAID</span></td>
+            </tr>
+            <tr>
+                <td>Electricity / AC Excess Meter Bill</td>
+                <td>2,450</td>
+                <td>30 Oct 2026</td>
+                <td><span class="status pending">PENDING</span></td>
+            </tr>
+            <tr>
+                <td>Laundry & Maintenance Fee</td>
+                <td>1,200</td>
+                <td>30 Oct 2026</td>
+                <td><span class="status pending">PENDING</span></td>
+            </tr>
+        </table>
+
+        <!-- Summary & Pay Button -->
+        <div id="payment-summary">
+            <h3>Total Outstanding Due: <span>₹3,650</span></h3>
+            <button id="pay-btn">PAY DUES ONLINE</button>
+        </div>
+    </div>
+
+    <!-- Bank Details for Offline Transfer -->
+    <div class="fee-card">
+        <div class="card-top">
+            <h2>3. Bank Transfer Details (NEFT / RTGS)</h2>
+            <span class="tag rule">OFFLINE MODE</span>
+        </div>
+        <hr>
+        <div class="details-row">
+            <p><b>Account Name:</b> LPU Hostel Administration</p>
+            <p><b>Bank Name:</b> State Bank of India (SBI)</p>
+            <p><b>Account Number:</b> 3892*******9</p>
+            <p><b>IFSC Code:</b> SBIN0****50</p>
+        </div>
+    </div>
+
+    <!-- Bottom Note (Same style as Notices page) -->
+    <div id="accounts-note">
+        <span><b>Accounts Office:</b> Ground Floor, Block A</span>
+        <span><b>Receipt Timings:</b> Mon – Sat (10:00 AM – 5:00 PM)</span>
+    </div>
+
+    <!-- Matching Footer -->
+    <footer id="contact">
+        <p>Hostel Helpline: +91 98765 43210 | Email: hostelhelpdesk@lpu.in</p>
+        <p>© 2026 Student Hostel Portal. All Rights Reserved.</p>
+        <p>Made by:) Tushar Yadav,Aditya Sharma,Talin Narula</p>
+    </footer>
+
+</body>
+</html>

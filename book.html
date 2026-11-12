@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Amenities</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+
+    <header>
+        <div id="navbar">
+            <a class="n1" href="project.html">HOME</a>
+            <a class="n1" href="notice.html">NOTICES</a>
+            <a class="n1" href="fees.html">FEES</a>
+            <a class="n1 active" href="book.html">BOOK AMENITIES</a>
+            <a class="n1" href="complain.html">COMPLAINTS</a>
+            <a class="n1" href="contact.html">CONTACT US</a>
+        </div>
+    </header>
+
+    <!-- Page Title Section -->
+    <div id="title-section">
+        <div id="boxhead">BOOK AN AMENITY</div>
+        <p class="subtitle">Reserve washing machine, gym, study room, and sports slots in advance</p>
+    </div>
+
+    <!-- Form Card -->
+    <div id="form-box">
+        <div class="card-top">
+            <h2>Amenity Slot Reservation Form</h2>
+            <span class="tag info">INSTANT SLOT</span>
+        </div>
+        <hr>
+
+        <form action="#">
+            <!-- Row 1 -->
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="regno">Registration Number *</label>
+                    <input type="text" id="regno" placeholder="e.g. 12621134" required>
+                </div>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="room">Hostel & Room Number *</label>
+                    <input type="text" id="room" placeholder="e.g. BS-12, Room B-414" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Mobile Number *</label>
+                    <input type="tel" id="phone" placeholder="e.g. 70159****9" required>
+                </div>
+            </div>
+
+            <!-- Row 3 -->
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="amenity">Select Amenity *</label>
+                    <select id="amenity" required>
+                        <option value="">-- Choose Amenity --</option>
+                        <option value="washing-machine">Washing Machine</option>
+                        <option value="study-room">Study Room Slot</option>
+                        <option value="badminton">Badminton Court</option>
+                        <option value="table-tennis">Table Tennis Table</option>
+                        <option value="gym">Gym Slot</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="date">Booking Date *</label>
+                    <input type="date" id="date" required>
+                </div>
+            </div>
+
+            <!-- Row 4 -->
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="time">Select Time Slot *</label>
+                    <select id="time" required>
+                        <option value="">-- Choose Time Slot --</option>
+                        <option value="slot1">06:00 AM - 08:00 AM</option>
+                        <option value="slot2">08:00 AM - 10:00 AM</option>
+                        <option value="slot3">04:00 PM - 06:00 PM</option>
+                        <option value="slot4">06:00 PM - 08:00 PM</option>
+                        <option value="slot5">08:00 PM - 10:00 PM</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Booking Type *</label>
+                    <div class="radio-group">
+                        <label class="inline-label">
+                            <input type="radio" name="booking_type" value="single" checked> Individual
+                        </label>
+                        <label class="inline-label">
+                            <input type="radio" name="booking_type" value="group"> Group / Doubles
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 5 (Full Width) -->
+            <div class="form-group full-width">
+                <label for="remarks">Additional Note (Optional)</label>
+                <input type="text" id="remarks" placeholder="e.g. Need 2 badminton rackets from common room">
+            </div>
+
+            <!-- Agreement Checkbox -->
+            <div class="checkbox-row">
+                <label class="inline-label">
+                    <input type="checkbox" required> I agree to vacate the slot on time and follow hostel amenity rules.
+                </label>
+            </div>
+
+            <!-- Submit & Reset Buttons -->
+            <div class="btn-row">
+                <button type="submit" id="btn-submit">CONFIRM BOOKING</button>
+                <button type="reset" id="btn-reset">CLEAR FORM</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Bottom Note (Same style as Notices & Fees) -->
+    <div id="booking-note">
+        <span><b>Amenity Timings:</b> 6:00 AM – 10:00 PM Daily</span>
+        <span><b>Important:</b> Show Hostel ID Card at Common Room Desk</span>
+    </div>
+
+    <!-- Matching Footer -->
+    <footer id="contact">
+        <p>Hostel Helpline: +91 98765 43210 | Email: hostelhelpdesk@lpu.in</p>
+        <p>© 2026 Student Hostel Portal. All Rights Reserved.</p>
+        <p>Made by:) Tushar Yadav,Aditya Sharma,Talin Narula</p>
+    </footer>
+
+</body>
+</html>

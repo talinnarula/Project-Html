@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Complaints & Maintenance</title>
+    <link rel="stylesheet" href="complain.css">
+</head>
+<body>
+
+    <header>
+        <div id="navbar">
+            <a class="n1" href="project.html">HOME</a>
+            <a class="n1" href="notice.html">NOTICES</a>
+            <a class="n1" href="fees.html">FEES</a>
+            <a class="n1" href="book.html">BOOK AMENITIES</a>
+            <a class="n1 active" href="complain.html">COMPLAINTS</a>
+            <a class="n1" href="contact.html">CONTACT US</a>
+        </div>
+    </header>
+
+    <!-- Page Title Section -->
+    <div id="title-section">
+        <div id="boxhead">REGISTER A COMPLAINT</div>
+        <p class="subtitle">Submit room maintenance, electrical, plumbing, or Wi-Fi repair requests</p>
+    </div>
+
+    <!-- Form Card -->
+    <div id="form-box">
+        <div class="card-top">
+            <h2>Hostel Maintenance & Complaint Form</h2>
+            <span class="tag urgent">24-48 HR RESPONSE</span>
+        </div>
+        <hr>
+
+        <form action="#">
+            <!-- Row 1 -->
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="regno">Registration Number *</label>
+                    <input type="text" id="regno" placeholder="e.g. 12621134" required>
+                </div>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="phone">Mobile Number *</label>
+                    <input type="tel" id="phone" placeholder="10-digit mobile number" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="room">Hostel & Room Number *</label>
+                    <input type="text" id="room" placeholder="e.g. BH-1, Room 302" required>
+                </div>
+            </div>
+
+            <!-- Row 3 -->
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="category">Complaint Category *</label>
+                    <select id="category" required>
+                        <option value="">-- Select Problem --</option>
+                        <option value="electricity">Electricity / Fan / Light Issue</option>
+                        <option value="plumbing">Plumbing / Tap / Water Issue</option>
+                        <option value="carpenter">Carpenter / Door / Bed Repair</option>
+                        <option value="wifi">Wi-Fi / Internet Problem</option>
+                        <option value="cleaning">Room Cleaning / Housekeeping</option>
+                        <option value="other">Other Issue</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="visit-time">Preferred Visit Time *</label>
+                    <select id="visit-time" required>
+                        <option value="">-- Choose Time Slot --</option>
+                        <option value="morning">Morning (09:00 AM - 12:00 PM)</option>
+                        <option value="afternoon">Afternoon (02:00 PM - 05:00 PM)</option>
+                        <option value="evening">Evening (05:00 PM - 07:30 PM)</option>
+                        <option value="anytime">Anytime (Roommate Available)</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Row 4 -->
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Priority Level *</label>
+                    <div class="radio-group">
+                        <label class="inline-label">
+                            <input type="radio" name="priority" value="normal" checked> Normal
+                        </label>
+                        <label class="inline-label">
+                            <input type="radio" name="priority" value="urgent"> Urgent (Emergency)
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="photo">Attach Photo (Optional)</label>
+                    <input type="file" id="photo" accept="image/*">
+                </div>
+            </div>
+
+            <!-- Row 5 (Full Width Description) -->
+            <div class="form-group full-width">
+                <label for="description">Complaint Description *</label>
+                <textarea id="description" rows="4" placeholder="Please describe your problem clearly (e.g. Ceiling fan regulator not working)..." required></textarea>
+            </div>
+
+            <!-- Confirmation Checkbox -->
+            <div class="checkbox-row">
+                <label class="inline-label">
+                    <input type="checkbox" required> I confirm that the above details are accurate and allow maintenance staff to inspect the room.
+                </label>
+            </div>
+
+            <!-- Submit & Clear Buttons -->
+            <div class="btn-row">
+                <button type="submit" id="btn-submit">SUBMIT COMPLAINT</button>
+                <button type="reset" id="btn-reset">CLEAR FORM</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Bottom Emergency Helpline Note -->
+    <div id="complaint-note">
+        <span><b>Emergency Electrician / Plumber:</b> +91 98765 43211 (24x7)</span>
+        <span><b>Average Resolution Time:</b> Within 24 Hours</span>
+    </div>
+
+    <!-- Matching Footer -->
+    <footer id="contact">
+        <p>Hostel Helpline: +91 98765 43210 | Email: hostelhelpdesk@lpu.in</p>
+        <p>© 2026 Student Hostel Portal. All Rights Reserved.</p>
+        <p>Made by:) Tushar Yadav,Aditya Sharma,Talin Narula</p>
+    </footer>
+
+</body>
+</html>
