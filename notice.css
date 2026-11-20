@@ -11,7 +11,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Navbar - Classic Navy Blue */
+
 #navbar {
     background-color: #1e3a5f;
     height: 65px;
@@ -35,7 +35,7 @@ body {
     color: #2563EB;
 }
 
-/* Title & Subtitle Section */
+
 #title-section {
     text-align: center;
     margin: 30px auto 20px auto;
@@ -58,7 +58,7 @@ body {
     color: #64748b;
 }
 
-/* Notice Cards */
+
 .notice-box {
     background-color: #ffffff;
     border: 1px solid #cbd5e1;
@@ -76,7 +76,7 @@ body {
     border-left: 5px solid #e67e22;
 }
 
-/* Urgent Notice Highlight */
+
 .urgent-card {
     border-left: 5px solid #dc2626;
 }
@@ -85,7 +85,7 @@ body {
     border-left: 5px solid #dc2626;
 }
 
-/* Top Row inside Card (Title Left, Date Right) */
+
 .notice-top {
     display: flex;
     justify-content: space-between;
@@ -121,7 +121,7 @@ body {
     color: #334155;
 }
 
-/* Issued By Line */
+
 .issued-by {
     margin-top: 12px;
     font-size: 12px;
@@ -129,7 +129,7 @@ body {
     font-style: italic;
 }
 
-/* Category Tags */
+
 .tag {
     font-size: 11px;
     color: #ffffff;
@@ -151,7 +151,7 @@ body {
     background-color: #e67e22;
 }
 
-/* Warden Office Note Box */
+
 #warden-note {
     background-color: #fff3cd;
     color: #856404;
@@ -168,7 +168,7 @@ body {
     gap: 10px;
 }
 
-/* Matching Footer */
+
 footer {
     background-color: #1e3a5f;
     text-align: center;
