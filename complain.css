@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-/* Exact Same Light Background as Other Pages */
+
 body {
     background-color: #f0f4f8;
     color: #1e293b;
     font-family: Arial, sans-serif;
 }
 
-/* Navbar - Classic Navy Blue */
+
 #navbar {
     background-color: #1e3a5f;
     height: 65px;
@@ -31,11 +31,12 @@ body {
 
 .n1:hover,
 .n1.active {
-    background-color: #e67e22;
-    color: #ffffff;
+    background-color: #fdfdfd;
+    color: #1e3a5f;
 }
 
-/* Title & Subtitle Section */
+
+
 #title-section {
     text-align: center;
     margin: 30px auto 20px auto;
@@ -58,7 +59,7 @@ body {
     color: #64748b;
 }
 
-/* Form White Card (Same Style as Book Amenities & Other Pages) */
+
 #form-box {
     background-color: #ffffff;
     border: 1px solid #cbd5e1;
@@ -71,7 +72,7 @@ body {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
 }
 
-/* Card Header */
+
 .card-top {
     display: flex;
     justify-content: space-between;
@@ -101,7 +102,7 @@ body {
     margin-bottom: 18px;
 }
 
-/* 2-Column Form Layout */
+
 .form-row {
     display: flex;
     flex-wrap: wrap;
@@ -119,7 +120,7 @@ body {
     margin-bottom: 15px;
 }
 
-/* Form Labels */
+
 .form-group label {
     display: block;
     font-size: 14px;
@@ -128,7 +129,7 @@ body {
     color: #1e3a5f;
 }
 
-/* Inputs, Select, File & Textarea */
+
 input[type="text"],
 input[type="tel"],
 input[type="file"],
@@ -172,7 +173,7 @@ textarea:focus {
     background-color: #ffffff;
 }
 
-/* Radio & Checkbox Styling */
+
 .radio-group {
     display: flex;
     align-items: center;
@@ -197,7 +198,7 @@ textarea:focus {
     cursor: pointer;
 }
 
-/* Submit & Reset Buttons */
+
 .btn-row {
     display: flex;
     gap: 15px;
@@ -235,7 +236,7 @@ textarea:focus {
     background-color: #cbd5e1;
 }
 
-/* Bottom Note Bar (Same as Other Pages) */
+
 #complaint-note {
     background-color: #fff3cd;
     color: #856404;
@@ -252,7 +253,7 @@ textarea:focus {
     gap: 10px;
 }
 
-/* Matching Footer */
+
 footer {
     background-color: #1e3a5f;
     text-align: center;
