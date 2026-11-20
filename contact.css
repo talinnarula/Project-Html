@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Exact Same Light Background as All Other Pages */
+
 body {
     background-color: #f0f4f8;
     color: #1e293b;
@@ -29,13 +29,14 @@ body {
     border-radius: 4px;
 }
 
+
 .n1:hover,
 .n1.active {
-    background-color: #e67e22;
-    color: #ffffff;
+    background-color: #fdfdfd;
+    color: #1e3a5f;
 }
 
-/* Title & Subtitle Section */
+
 #title-section {
     text-align: center;
     margin: 30px auto 20px auto;
@@ -58,7 +59,7 @@ body {
     color: #64748b;
 }
 
-/* Contact Cards (Exact Same Style as Notice & Fee Cards) */
+
 .contact-box {
     background-color: #ffffff;
     border: 1px solid #cbd5e1;
@@ -76,7 +77,7 @@ body {
     border-left: 5px solid #e67e22;
 }
 
-/* Emergency Card Red Highlight */
+
 .contact-box.emergency {
     border-left: 5px solid #dc2626;
 }
@@ -85,7 +86,7 @@ body {
     border-left: 5px solid #dc2626;
 }
 
-/* Card Header Row */
+
 .card-top {
     display: flex;
     justify-content: space-between;
@@ -110,7 +111,7 @@ body {
     margin-bottom: 12px;
 }
 
-/* Clean 2-Column Contact Details */
+
 .details-row {
     display: flex;
     flex-wrap: wrap;
@@ -139,7 +140,7 @@ body {
     color: #1e3a5f;
 }
 
-/* Category Tags */
+
 .tag {
     font-size: 11px;
     color: #ffffff;
@@ -160,7 +161,7 @@ body {
     background-color: #e67e22;
 }
 
-/* Bottom Note Bar (Same as Other Pages) */
+
 #contact-note {
     background-color: #fff3cd;
     color: #856404;
@@ -177,7 +178,7 @@ body {
     gap: 10px;
 }
 
-/* Matching Footer */
+
 footer {
     background-color: #1e3a5f;
     text-align: center;
