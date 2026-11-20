@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-/* Exact Same Light Background as Notices Page */
+
 body {
     background-color: #f0f4f8;
     color: #1e293b;
     font-family: Arial, sans-serif;
 }
 
-/* Navbar - Classic Navy Blue */
+
 #navbar {
     background-color: #1e3a5f;
     height: 65px;
@@ -31,11 +31,11 @@ body {
 
 .n1:hover,
 .n1.active {
-    background-color: #e67e22;
+    background-color: #ffffff;
     color: #ffffff;
 }
 
-/* Title & Subtitle Section */
+
 #title-section {
     text-align: center;
     margin: 30px auto 20px auto;
@@ -58,7 +58,7 @@ body {
     color: #64748b;
 }
 
-/* White Cards (Exact Same Style as Notice Cards) */
+
 .fee-card {
     background-color: #ffffff;
     border: 1px solid #cbd5e1;
@@ -76,7 +76,7 @@ body {
     border-left: 5px solid #e67e22;
 }
 
-/* Card Header Row */
+
 .card-top {
     display: flex;
     justify-content: space-between;
@@ -97,7 +97,7 @@ body {
     margin-bottom: 12px;
 }
 
-/* Clean 2-Column Text Layout on White Card */
+
 .details-row {
     display: flex;
     flex-wrap: wrap;
@@ -115,7 +115,7 @@ body {
     color: #1e3a5f;
 }
 
-/* Small Badges (Same as Notices Page) */
+
 .tag {
     font-size: 11px;
     color: #ffffff;
@@ -136,7 +136,7 @@ body {
     background-color: #dc2626;
 }
 
-/* Table Styling */
+
 #fee-table {
     width: 100%;
     border-collapse: collapse;
@@ -165,7 +165,7 @@ body {
     background-color: #f8fafc;
 }
 
-/* Status Badges */
+
 .status {
     padding: 3px 8px;
     border-radius: 3px;
@@ -183,7 +183,7 @@ body {
     color: #ffffff;
 }
 
-/* Clean Payment Summary Footer inside White Card */
+
 #payment-summary {
     display: flex;
     justify-content: space-between;
@@ -218,7 +218,7 @@ body {
     background-color: #1e3a5f;
 }
 
-/* Bottom Note Bar (Same as Notices Page) */
+
 #accounts-note {
     background-color: #fff3cd;
     color: #856404;
@@ -235,7 +235,7 @@ body {
     gap: 10px;
 }
 
-/* Matching Footer */
+
 footer {
     background-color: #1e3a5f;
     text-align: center;
