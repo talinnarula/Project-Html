@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Same Clean Light Background */
+
 body {
     background-color: #f0f4f8;
     color: #1e293b;
@@ -32,7 +32,7 @@ body {
 .n1:hover,
 .n1.active {
     background-color: #EFF6FF;
-    color: #ffffff;
+    color: #2563EB;
 }
 
 /* Title & Subtitle Section */
